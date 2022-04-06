@@ -6,14 +6,12 @@ relative_path_to_root = j("..","..")
 data_folder = j(relative_path_to_root, "data")
 figures_folder = j(relative_path_to_root, "report", "figures")
 
-# STEP 0 download data
+# STEP 0 dataset exploration
 # ===================================
 
-s0_folder = j(data_folder, "s0_downloaded_data")
+kaggle_folder = j(data_folder, "kaggle_painters_by_numbers")
 
-s0_balzac_books = j(s0_folder, "balzac_books.json")
-
-s0_figure_sinusoid = j(figures_folder, "s0_sinusoid.png")
+all_data_info = j(kaggle_folder, "all_data_info.csv")
 
 # STEP 1 train model
 # ===================================

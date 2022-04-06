@@ -1,8 +1,10 @@
 
 .vscode/
+**/.ipynb_checkpoints
 
 data/
 
 **/__pycache__
+**.csv
 
 venv-hda2/
