@@ -1,6 +1,8 @@
 
-
+.vscode/
 
 data/
 
 **/__pycache__
+
+venv-hda2/
