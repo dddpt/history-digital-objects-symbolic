@@ -28,7 +28,11 @@ image_folders = [
         "train_2",
         "train_3",
         "train_4",
-        "train_5"
+        "train_5",
+        "train_6",
+        "train_7",
+        "train_8",
+        "train_9"
     ]
 ]
 # ...
