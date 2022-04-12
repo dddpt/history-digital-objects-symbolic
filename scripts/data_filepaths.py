@@ -33,4 +33,8 @@ image_folders = [
 ]
 # ...
 
-images_with_boxes = j(data_folder, "images_with_boxes")
+images_with_boxes_folder = j(data_folder, "images_with_boxes")
+images_with_boxes_path = j(images_with_boxes_folder, "portrait_XXX.jpg")
+
+
+object_detection_results_folder = j(data_folder, "object_detection_results")
