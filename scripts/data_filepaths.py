@@ -13,7 +13,24 @@ kaggle_folder = j(data_folder, "kaggle_painters_by_numbers")
 
 all_data_info = j(kaggle_folder, "all_data_info.csv")
 
+portraits_csv = j(data_folder, "portraits.csv")
+
+
+
 # STEP 1 train model
 # ===================================
 
+image_folders = [
+    j(kaggle_folder, train_set)
+    for train_set in [
+        "train",
+        "train_1",
+        "train_2",
+        "train_3",
+        "train_4",
+        "train_5"
+    ]
+]
 # ...
+
+images_with_boxes = j(data_folder, "images_with_boxes")
