@@ -37,9 +37,12 @@ image_folders = [
 ]
 # ...
 
-images_with_boxes_folder = j(data_folder, "images_with_boxes")
 
 
-object_detection_results_folder = j(data_folder, "object_detection_results")
-object_detection_results_path = j(object_detection_results_folder, "XXX.csv")
+object_detection_results_folder = j(data_folder, "object_detection_results", "<CASESTUDY>_<MODEL>")
+
+images_with_boxes_folder = j(object_detection_results_folder, "images_with_boxes")
+
+object_detection_results_csv_folder = j(object_detection_results_folder, "objects")
+object_detection_results_csv_path = j(object_detection_results_csv_folder, "<IMAGENAME>.csv")
 
