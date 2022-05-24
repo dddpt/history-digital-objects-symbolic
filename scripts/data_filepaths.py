@@ -14,6 +14,7 @@ kaggle_folder = j(data_folder, "kaggle_painters_by_numbers")
 all_data_info = j(kaggle_folder, "all_data_info.csv")
 
 portraits_csv = j(data_folder, "portraits.csv")
+casestudy_csv = j(data_folder, "<CASESTUDY>.csv")
 
 
 
